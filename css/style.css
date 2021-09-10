@@ -71,7 +71,15 @@ blockquote {
 }
 
 #image {
-  width: 80%;
+  width: 60%;
+  padding-top: 2em;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
 }
 
 @media (max-width: 600px) {
